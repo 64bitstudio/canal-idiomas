@@ -1,0 +1,30 @@
+# Secretos (nunca versionar)
+.env
+.env.*
+!.env.example
+*.pem
+client_secret*.json
+token*.json
+
+# Dependencias y entornos
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Clon externo (se retira en ticket 010) y material de prueba
+MoneyPrinterTurbo/
+pruebas/
+
+# Artefactos generados (audio/video/render)
+*.mp4
+*.mov
+*.wav
+*.mp3
+out/
+render/
+audio/
+spikes/**/run*.log
+
+# Sistema
+.DS_Store
